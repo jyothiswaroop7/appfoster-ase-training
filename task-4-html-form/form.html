@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+        <form  style="background-color: rgb(206, 225, 247); float:left">
+            <fieldset style="width: 532px;">
+                <legend>Primary Details:</legend>
+                <div class="row" >
+                    <div style="margin-top:18px;width: 100px; margin-left: 5px;">Medicare No:</div>
+                    <div style="margin-top:18px;">
+                        <input style="width: 70px;" type="text" name="medicare_no">
+                        <b>/</b>
+                        <input type="text" name="medicare_no" style="width: 20px;">
+                    </div>
+                    <div class="column">
+                        <div>Valid Till</div>
+                        <div><input type="date" ></div>
+                    </div>
+                    <div style="margin-top:18px;"><input type="text" style="width: 20px;"></div>
+                </div>
+                <div class="row" style="margin-top: 2px;">
+                    <div style="width: 100px;margin-left: 5px;">Title</div>
+                    <div>
+                        <select>
+                            <option value="mr">None</option>
+                            <option value="mr">Mr</option>
+                            <option value="mrs">Mrs</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 2px;">
+                    <div style="width: 100px; margin-top: 18px;margin-left: 5px;">Name</div>
+                    <div class="column">
+                        <div>Lastname, Firstname, Middlen</div>
+                        <div><input type="text" name="first_name"></div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 2px;">
+                    <div style="width: 100px;margin-left: 5px;">Pref. Name:</div>
+                    <div><input type="text" name="first_name"></div>
+                </div>
+                <div class="row" style="margin-top: 2px;">
+                    <div style="width: 100px;margin-left: 5px;">DOB:</div>
+                    <input type="checkbox" >
+                    <div><input type="date" name="birthday"></div>
+                </div>
+                <div class="row" style="margin-top: 2px;">
+                    <div style="width: 100px;margin-left: 5px;">Sex:</div>
+                    <div>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 2px;">
+                    <div style="width: 100px;margin-left: 5px;">Family Name</div>
+                    <div><input type="text" ></div>
+                    <div class="place"><input type="text" style="width: 40px;" placeholder="N"></div>
+                    <div class="place"><input type="text" style="width: 40px;" placeholder="I"></div>
+                </div>
+                
+            </fieldset>
+                
+
+            <fieldset style="width: 532px;">
+                <legend>Contact Details:</legend>
+                <div class="column" style="float: left;">
+                    <div class="row">
+                        <div style="margin: 10px; width: 100px;">
+                            Phone
+                        </div>
+                        
+                        <div class="column">
+                            <div>Home</div>
+                            <div><input type="text"></div>
+                        </div>
+                        <div class="column">
+                            <div>Work</div>
+                            <div><input type="text"></div>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="row" style="float: right;">
+                            <div class="column">
+                                <div>Mobile</div>
+                                <div><input type="text"></div>
+                            </div>
+                            <div class="column">
+                                <div>Fax</div>
+                                <div><input type="text"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row" style="float: right;">
+                            <div class="column">
+                                <div>Next of kin</div>
+                                <div><input type="text"></div>
+                            </div>
+                            <div class="column">
+                                <div>Next of kin ph:</div>
+                                <div><input type="text"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row" style="float: left;">
+                            <div style="margin: 10px; width: 100px;">
+                                Emerg. No
+                            </div>
+                            <div style="padding-top: 10px;">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row" style="float: left;">
+                            <div style="margin: 10px; width: 100px;">
+                                Email
+                            </div>
+                            <div style="padding-top: 5px;">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset style="width: 520px;">
+                <legend>Address Details:</legend>
+                <fieldset style="width: 500px;">
+                    <legend>Residential Address:</legend>
+                    <div class="column">
+                        <div>
+                            <div class="row" style="float: left;">
+                                <div style="margin: 5px; width: 100px;">
+                                    Address 1
+                                </div>
+                                <div style="padding-top: 5px;">
+                                    <input type="text" style="width: 335px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row" style="float: left;">
+                                <div style="margin: 5px; width: 100px;">
+                                    Address 2
+                                </div>
+                                <div style="padding-top: 5px;">
+                                    <input type="text" style="width: 335px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="margin: 5px; width: 100px;">
+                                suburb
+                            </div>
+                            <div style="padding-top: 5px;">
+                                <input type="text">
+                            </div>
+                            <div style="padding-top: 5px; padding-left: 25px;">
+                                state
+                                <select>
+                                    <option value="mr">Andhra Pradesh</option>
+                                    <option value="mr">Tamil Nadu</option>
+                                    <option value="mr">Telangana</option>
+                                    <option value="mrs">Karnataka</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="margin: 5px; width: 100px;">
+                                postal code
+                            </div>
+                            <div style="padding-top: 5px;">
+                                <input type="text">
+                                <input type="text" value="?" style="width: 10px;">
+                            </div>
+                            <div style="padding-top: 5px;padding-left: 10px;">
+                                Country
+                                <input type="text" value="India" style="width: 70px;">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset style="width: 500px;">
+                    <legend>Single Address:</legend>
+                    Are Mailing Address And Residential Address Are Same:<input type="checkbox" >Yes<br>
+                </fieldset>
+
+                <fieldset style="width: 500px;">
+                    <legend>Mailing Address:</legend>
+                    <div class="column">
+                        <div>
+                            <div class="row" style="float: left;">
+                                <div style="margin: 5px; width: 100px;">
+                                    Address 1
+                                </div>
+                                <div style="padding-top: 5px;">
+                                    <input type="text" style="width: 335px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row" style="float: left;">
+                                <div style="margin: 5px; width: 100px;">
+                                    Address 2
+                                </div>
+                                <div style="padding-top: 5px;">
+                                    <input type="text" style="width: 335px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="margin: 5px; width: 100px;">
+                                suburb
+                            </div>
+                            <div style="padding-top: 5px;">
+                                <input type="text">
+                            </div>
+                            <div style="padding-top: 5px; padding-left: 25px;">
+                                state
+                                <select>
+                                    <option value="mr">Andhra Pradesh</option>
+                                    <option value="mr">Tamil Nadu</option>
+                                    <option value="mr">Telangana</option>
+                                    <option value="mrs">Karnataka</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="margin: 5px; width: 100px;">
+                                postal code
+                            </div>
+                            <div style="padding-top: 5px;">
+                                <input type="text">
+                                <input type="text" value="?" style="width: 10px;">
+                            </div>
+                            <div style="padding-top: 5px;padding-left: 10px;">
+                                Country
+                                <input type="text" value="Australia" style="width: 70px;">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </fieldset>
+            <div class="column" style="margin: 30px;">
+                <div class="row">
+                    <div style="margin: 5px; width: 150px;">IHI Number</div>
+                    <div style="margin: 5px; width: 50px;">80036 </div>
+                    <div><input type="text" style="width: 109px;"></div>
+                </div>
+                <div class="row" >
+                    <div style="margin: 5px; width: 150px;">Number Status</div>
+                    <div><input type="text"></div>
+                </div>
+                <div class="row">
+                    <div style="margin: 5px; width: 150px;">Record Status</div>
+                    <div><input type="text"></div>
+                </div>
+                <div class="row">
+                    <div style="margin: 5px; width: 150px;">Last Updated</div>
+                    <div><input type="text"></div>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Submit" style="margin-left: 140px;width: 150px;margin-bottom: 20px;">
+                <input type="reset" value="Clear" style="width: 150px;margin-bottom: 20px;">
+            </div>
+            
+        </form>
+    
+</body>
+</html>
