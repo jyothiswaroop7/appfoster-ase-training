@@ -1,0 +1,25 @@
+echo "RA2111027010076"
+echo "RA2111027010076"
+ls
+cd Desktop
+cd .
+cd ../
+ls
+ls -l
+cd appfoster-ase-training
+cd task-9-cli
+touch samplefile.txt
+code samplefile.txt
+cat samplefile.txt
+mkdir task-9
+ls
+mv samplefile.txt secondfile.txt
+ls
+cp secondfile.txt
+cp secondfile.txt thirdfile.txt
+ls
+wc -l secondfile.txt
+wc -l secondfile.txt
+curl https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch -L -I | grep location
+history -a
+history -w ~/history.txt
