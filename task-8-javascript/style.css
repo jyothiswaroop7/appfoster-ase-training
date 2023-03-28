@@ -1,5 +1,17 @@
-.box{
-    height: 100px;
+#container {
+    display: flex;
+  }
+  form{
+    padding: 100px;
+  }
+  
+  .split {
+    padding-top: 20px;
     text-align: center;
-    padding: 15px;
-}
+    font-size: 20px;
+    margin: 0;
+    height: 50px;
+  }
+  .error{
+    padding: 10px;
+  }

@@ -20,7 +20,7 @@ function split() {
     for (let i = 0; i < splits; i++) {
         const width = Math.ceil(remaining / (splits - i));
         const div = document.createElement("div");
-        div.classList.add("box");
+        div.classList.add("split");
         div.style.backgroundColor = getRandomColor();
         div.style.flex = width;
         div.innerHTML = width;
