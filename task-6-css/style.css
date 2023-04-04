@@ -1,3 +1,7 @@
+body{
+    margin-left: 250px;
+    margin-right: 220px;
+}
 .row{
     display: flex;
     flex-direction: row;
@@ -83,4 +87,10 @@ p{
 .des{
     color: #ffffff;
     font-weight: 400;
+}
+.percentage{
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
 }
