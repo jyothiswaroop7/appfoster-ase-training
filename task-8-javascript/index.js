@@ -14,8 +14,15 @@ function getRandomColor() {
 }
 
 function split() {
+    resultContainer.textContent="";
     const number = inputNumber.value;
     const splits = numberOfSplits.value;
+    if(splits<0){
+        const p = document.createElement("p");
+        p.textContent="Invalid number of splits";
+        p.classList.add("error");
+        resultContainer.append(p);
+    }
     let remaining = number;
     for (let i = 0; i < splits; i++) {
         const width = Math.ceil(remaining / (splits - i));
